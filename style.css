@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to left, rgb(99, 199, 206), rgb(224, 163, 231));
+}
+
+
+.main {
+    margin: 50px 0;
+}
+
+
+
+.task-list-element {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 12px;
+    color: white;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.black {
+    font-size: 10rem;
+    color: black;
+}
+
+.white {
+    font-size: 10px;
+    color: white;
+}
+
+.tick {
+    transition: 500ms;
+}
+
+.rotate {
+    transform: rotateY(360deg);
+}
+
+#add-btn,
+#clear-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 0;
+}
+
+#clear-btn {
+    display: none;
+}
+
+.task-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+#task-input {
+    border: none;
+    color: white;
+    outline: none;
+    display: inline;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    width: 90%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 12px;
+}
