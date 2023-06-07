@@ -38,6 +38,7 @@ body {
 
 .tick {
     transition: 500ms;
+    cursor:pointer;
 }
 
 .rotate {
